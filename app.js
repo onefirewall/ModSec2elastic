@@ -28,7 +28,7 @@ log2json.async(log_location, function callback(jsonArray){
 
         for(i; i < batchUpperLimit; i++){
             jsonArray[i]['server'] = os.hostname()
-            bodyData.push({index:{ _index: 'waf', _type: 'log', _id: jsonArray[i].id2}})
+            bodyData.push({index:{ _index: 'modsec_waf', _type: 'log', _id: jsonArray[i].id2}})
             bodyData.push(jsonArray[i]);
         }
         i++;
