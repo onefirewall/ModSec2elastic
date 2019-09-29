@@ -1,0 +1,17 @@
+temp
+*.txt
+*.log
+*.logs
+.DS_*
+node_modules
+node_modules2
+*.node
+bin
+.vscode
+db_config
+*.conf
+config.json
+xdg-open
+*.zip
+test
+elk.sh
